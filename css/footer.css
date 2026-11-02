@@ -1,5 +1,6 @@
 .footer {
   background-color: #1e1823;
+  padding: 50px 0;
 }
 
 .footer-slogan {
@@ -8,9 +9,15 @@
   line-height: 1.21;
   letter-spacing: -0.03em;
   color: #fff;
+  width: 300px;
 }
 
+.footer-wrapper {
+  margin-right: 90px;
+  margin-left: auto;
+}
 .footer-caption {
+  margin-bottom: 14px;
   font-weight: 600;
   color: #fff;
 }
@@ -22,6 +29,10 @@
 .contacts-item {
   color: #fff;
 }
+
+.contacts-item:not(:last-child) {
+  margin-bottom: 4px;
+}
 .contacts-link {
 }
 .contacts-link:hover,
@@ -29,10 +40,15 @@
   color: #fd9222;
 }
 .footer-menu {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 .footer-menu-item {
 }
 .footer-menu-link {
+  display: block;
+  padding: 11px 0;gi
   font-weight: 500;
   color: #fff;
 }
@@ -40,4 +56,14 @@
 .footer-menu-link:hover,
 .footer-menu-link:focus {
   color: #fd9222;
+}
+
+.footer-top {
+  display: flex;
+  padding-bottom: 48px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-bottom {
+  padding-top: 24px;
 }

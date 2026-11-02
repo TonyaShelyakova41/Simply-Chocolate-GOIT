@@ -5,13 +5,42 @@
 }
 
 .made-ill {
+  width: 600px;
+  height: 400px;
 }
 .made-subtitle {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.33;
+  width: 350px;
 }
 .made-list {
 }
-.made-item {
+.made-item:not(:last-child) {
+  margin-bottom: 24px;
 }
+
+.made-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.made-left-side {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.made-right-side {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 28px;
+  border-radius: 15px;
+  padding: 32px;
+  width: 516px;
+  background-color: #fff;
+}
+
