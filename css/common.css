@@ -46,10 +46,12 @@ p {
   max-width: 1168px;
   margin: 0 auto;
   padding: 0 16px;
+}
 
-  outline: 2px solid red;
+/*outline: 2px solid red;
   outline-offset: -2px;
 }
+*/
 
 /* Base Styles */
 .sr-only {
@@ -117,6 +119,8 @@ p {
   border: 1px solid transparent;
   border-radius: 100px;
   padding: 14px 40px;
+  transition: 300ms ease-out;
+  transition-property: color, background-color, border-color;
 }
 
 .btn-filled {
@@ -146,6 +150,9 @@ p {
   border-color: #fd9222;
   color: #111;
   margin: 0 auto;
+  transition:
+    color 250ms ease-in-out,
+    background-color 250ms ease-in-out;
 }
 
 .secondary:hover,

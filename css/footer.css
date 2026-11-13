@@ -34,6 +34,8 @@
   margin-bottom: 4px;
 }
 .contacts-link {
+  transition: 300ms ease-in-out;
+  transition-property: color, border-color;
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -46,12 +48,16 @@
 }
 .footer-menu-item {
 }
+
 .footer-menu-link {
   display: block;
   padding: 11px 0;gi
   font-weight: 500;
   color: #fff;
+ transition: 300ms ease-in-out;
+  transition-property: color;
 }
+
 
 .footer-menu-link:hover,
 .footer-menu-link:focus {
@@ -66,4 +72,15 @@
 
 .footer-bottom {
   padding-top: 24px;
+}
+
+.socials-light .socials-icon {
+  color: #fff
+}
+
+.socials-light .socials-link {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+
+
 }

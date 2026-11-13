@@ -1,4 +1,4 @@
-<!doctype html>
+uu<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -35,19 +35,14 @@
       <div class="container">
         <a class="logo" href="index.html">
           <i>Simply</i> Chocolate
-          <img
-            class="icon"
-            src="./images/icons/logo.svg"
-            alt="Site Logo"
-            width="24"
-            height="24"
-        /></a>
+          <svg class="icon" width="24" height="24">
+            <use href="./images/icons.svg#logo"></use>
+          </svg>
+        </a>
         <nav class="main-nav">
           <ul class="main-nav-list">
             <li class="main-nav-item">
-              <a class="main-nav-link" href="#home"
-                ><div class="accent">Home</div></a
-              >
+              <a class="main-nav-link is-active" href="#home">Home</a>
             </li>
             <li class="main-nav-item">
               <a class="main-nav-link" href="#made">How its made?</a>
@@ -64,13 +59,10 @@
               href="https://www.facebook.com"
               target="_blank"
               rel="noopener noreferrer"
-              ><img
-                class="socials-icon"
-                src="./images/icons/facebook.svg"
-                alt="Facebook icon"
-                width="24"
-                height="24"
-            /></a>
+              ><svg class="socials-icon" width="20" height="20">
+                <use href="./images/icons.svg#facebook"></use>
+              </svg>
+            </a>
           </li>
           <li class="socials-item">
             <a
@@ -78,23 +70,17 @@
               href="https://www.instagram.com"
               target="_blank"
               rel="noopener noreferrer"
-              ><img
-                class="socials-icon"
-                src="./images/icons/instagram.svg"
-                alt="Instagram icon"
-                width="24"
-                height="24"
-            /></a>
+              ><svg class="socials-icon" width="20" height="20">
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+            </a>
           </li>
           <li class="socials-item">
             <a class="socials-link" href="https://twitter.com" target="_blank"
-              ><img
-                class="socials-icon"
-                src="./images/icons/twitter.svg"
-                alt="Twitter icon"
-                width="24"
-                height="24"
-            /></a>
+              ><svg class="socials-icon" width="20" height="20">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
           </li>
         </ul>
       </div>
@@ -116,13 +102,10 @@
               <a class="hero-link" href="#benefits"
                 >Scroll down
                 <span class="hero-link-circle">
-                  <img
-                    class="hero-link-icon"
-                    src="./images/icons/arrow-down.svg"
-                    alt="arrow down icon"
-                    width="22"
-                    height="22"
-                /></span>
+                  <svg class="hero-link-icon" width="22" height="22">
+                    <use href="./images/icons.svg#arrow-down1"></use>
+                  </svg>
+                </span>
               </a>
             </div>
           </div>
@@ -134,6 +117,11 @@
           <h2 class="sr-only">Our benefits</h2>
           <ul class="benefits-list">
             <li class="benefits-item">
+              <div class="benefits-wrapper">
+                <svg class="benefits-icon" width="32" height="32">
+                  <use href="./images/icons.svg#chocolate"></use>
+                </svg>
+              </div>
               <h3 class="benefits-subtitle">Unsurpassed taste</h3>
               <p class="benefits-desc">
                 Crafted with the finest quality cocoa beans and a dedication to
@@ -142,8 +130,12 @@
                 Unsurpassed Taste and discover a new level of chocolate bliss.
               </p>
             </li>
-            <li class="benefits-item"></li>
-            <li>
+            <li class="benefits-item">
+              <div class="benefits-wrapper">
+                <svg class="benefits-icon" width="32" height="32">
+                  <use href="./images/icons.svg#coin"></use>
+                </svg>
+              </div>
               <h3 class="benefits-subtitle">Affordable price</h3>
               <p class="benefits-desc">
                 Indulge in high-quality chocolate without breaking the bank with
@@ -153,8 +145,12 @@
                 in affordable luxury today.
               </p>
             </li>
-            <li class="benefits-item"></li>
-            <li>
+            <li class="benefits-item">
+              <div class="benefits-wrapper">
+                <svg class="benefits-icon" width="32" height="32">
+                  <use href="./images/icons.svg#spoon"></use>
+                </svg>
+              </div>
               <h3 class="benefits-subtitle">Own production</h3>
               <p class="benefits-desc">
                 We take pride in our own production process, ensuring that every
@@ -175,6 +171,11 @@
           </h2>
           <ul class="ingredients-list">
             <li class="ingredients-item">
+              <button type="button" class="ingredients-button">
+                <svg class="ingredients-icon" width="24" height="24">
+                  <use href="./images/icons.svg#arrow"></use>
+                </svg>
+              </button>
               <img
                 class="ingredients-image"
                 src="./images/ingredients/img-1.png"
@@ -185,6 +186,11 @@
               <h3 class="ingredients-subtitle">MILK CHOCOLATE</h3>
             </li>
             <li class="ingredients-item">
+              <button type="button" class="ingredients-button">
+                <svg class="ingredients-icon" width="24" height="24">
+                  <use href="./images/icons.svg#arrow"></use>
+                </svg>
+              </button>
               <img
                 class="ingredients-image"
                 src="./images/ingredients/img-2.png"
@@ -195,6 +201,11 @@
               <h3 class="ingredients-subtitle">MILK</h3>
             </li>
             <li class="ingredients-item">
+              <button type="button" class="ingredients-button">
+                <svg class="ingredients-icon" width="24" height="24">
+                  <use href="./images/icons.svg#arrow"></use>
+                </svg>
+              </button>
               <img
                 class="ingredients-image"
                 src="./images/ingredients/img-3.png"
@@ -205,6 +216,11 @@
               <h3 class="ingredients-subtitle">NUTS</h3>
             </li>
             <li class="ingredients-item">
+              <button type="button" class="ingredients-button">
+                <svg class="ingredients-icon" width="24" height="24">
+                  <use href="./images/icons.svg#arrow"></use>
+                </svg>
+              </button>
               <img
                 class="ingredients-image"
                 src="./images/ingredients/img-4.png"
@@ -215,6 +231,11 @@
               <h3 class="ingredients-subtitle">SEMI-SWEET CHOCOLATE</h3>
             </li>
             <li class="ingredients-item">
+              <button type="button" class="ingredients-button">
+                <svg class="ingredients-icon" width="24" height="24">
+                  <use href="./images/icons.svg#arrow"></use>
+                </svg>
+              </button>
               <img
                 class="ingredients-image"
                 src="./images/ingredients/img-5.png"
@@ -225,6 +246,11 @@
               <h3 class="ingredients-subtitle">CACAO</h3>
             </li>
             <li class="ingredients-item">
+              <button type="button" class="ingredients-button">
+                <svg class="ingredients-icon" width="24" height="24">
+                  <use href="./images/icons.svg#arrow"></use>
+                </svg>
+              </button>
               <img
                 class="ingredients-image"
                 src="./images/ingredients/img-6.png"
@@ -235,6 +261,11 @@
               <h3 class="ingredients-subtitle">RASPBERRY</h3>
             </li>
             <li class="ingredients-item">
+              <button type="button" class="ingredients-button">
+                <svg class="ingredients-icon" width="24" height="24">
+                  <use href="./images/icons.svg#arrow"></use>
+                </svg>
+              </button>
               <img
                 class="ingredients-image"
                 src="./images/ingredients/img-7.png"
@@ -249,45 +280,47 @@
       </section>
       <!--  Made section  -->
       <section class="section made" id="made">
-        <h2 class="section-title made-title">
-          How it&#39;s <span class="accent">made</span>?
-        </h2>
-        <div class="made-wrapper">
-          <div class="made-left-side">
-            <img
-              class="made-ill"
-              src="./images/ingredients/image.jpg"
-              alt="cooking chocolate"
-              width="600"
-              height="400"
-            />
-          </div>
-          <div class="made-right-side">
-            <h3 class="made-subtitle">
-              Try our chocolates today and discover&nbsp;the perfect balance of
-              flavor
-            </h3>
-            <ol class="made-list">
-              <li class="made-item">
-                At the same time, prepare a water bath. Melt the butter on it.
-              </li>
-              <li class="made-item">
-                "Mix" the milk mixture and already liquid butter. Mix thoroughly
-                with a silicone spatula so that the mass becomes uniform and
-                silky.
-              </li>
-              <li class="made-item">
-                Heat the mixture over low heat, letting it barely boil.
-              </li>
-              <li class="made-item">
-                Pour the chocolate into special containers (can be replaced with
-                ice molds). Allow to cool and harden.
-              </li>
-              <li class="made-item">
-                Heat the milk in a saucepan without bringing it to a boil. Add
-                sugar and cocoa powder.
-              </li>
-            </ol>
+        <div class="container">
+          <h2 class="section-title made-title">
+            How it&#39;s <span class="accent">made</span>?
+          </h2>
+          <div class="made-wrapper">
+            <div class="made-left-side">
+              <img
+                class="made-ill"
+                src="./images/ingredients/image.jpg"
+                alt="cooking chocolate"
+                width="600"
+                height="400"
+              />
+            </div>
+            <div class="made-right-side">
+              <h3 class="made-subtitle">
+                Try our chocolates today and discover&nbsp;the perfect balance
+                of flavor
+              </h3>
+              <ol class="made-list">
+                <li class="made-item">
+                  At the same time, prepare a water bath. Melt the butter on it.
+                </li>
+                <li class="made-item">
+                  "Mix" the milk mixture and already liquid butter. Mix
+                  thoroughly with a silicone spatula so that the mass becomes
+                  uniform and silky.
+                </li>
+                <li class="made-item">
+                  Heat the mixture over low heat, letting it barely boil.
+                </li>
+                <li class="made-item">
+                  Pour the chocolate into special containers (can be replaced
+                  with ice molds). Allow to cool and harden.
+                </li>
+                <li class="made-item">
+                  Heat the milk in a saucepan without bringing it to a boil. Add
+                  sugar and cocoa powder.
+                </li>
+              </ol>
+            </div>
           </div>
         </div>
       </section>
@@ -496,7 +529,7 @@
       </section>
     </main>
     <footer class="footer" id="footer">
-      <container>
+      <div class="container">
         <div class="footer-top">
           <p class="footer-slogan">
             <span class="accent">Chocolate</span> a delicious cure for a bad day
@@ -504,20 +537,17 @@
           <div class="footer-wrapper">
             <p class="footer-caption">Social networks</p>
 
-            <ul class="socials">
+            <ul class="socials socials-light">
               <li class="socials-item">
                 <a
                   class="socials-link"
                   href="https://www.facebook.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  ><img
-                    class="socials-icon"
-                    src="./images/icons/facebook.svg"
-                    alt="Facebook icon"
-                    width="24"
-                    height="24"
-                /></a>
+                  ><svg class="socials-icon" width="24" height="24">
+                    <use href="./images/icons.svg#facebook"></use>
+                  </svg>
+                </a>
               </li>
               <li class="socials-item">
                 <a
@@ -525,26 +555,20 @@
                   href="https://www.instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  ><img
-                    class="socials-icon"
-                    src="./images/icons/instagram.svg"
-                    alt="Instagram icon"
-                    width="24"
-                    height="24"
-                /></a>
+                  ><svg class="socials-icon" width="24" height="24">
+                    <use href="./images/icons.svg#instagram"></use>
+                  </svg>
+                </a>
               </li>
               <li class="socials-item">
                 <a
                   class="socials-link"
                   href="https://twitter.com"
                   target="_blank"
-                  ><img
-                    class="socials-icon"
-                    src="./images/icons/twitter.svg"
-                    alt="Twitter icon"
-                    width="24"
-                    height="24"
-                /></a>
+                  ><svg class="socials-icon" width="24" height="24">
+                    <use href="./images/icons.svg#twitter"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
           </div>
@@ -577,7 +601,7 @@
             </li>
           </ul>
         </div>
-      </container>
+      </div>
     </footer>
   </body>
 </html>

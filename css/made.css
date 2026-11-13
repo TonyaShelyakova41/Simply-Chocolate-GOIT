@@ -16,6 +16,23 @@
 }
 .made-list {
 }
+
+.made-item {
+  display: flex;
+  gap: 8px;
+}
+
+.made-item::before {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  background-color: #4c4c4c;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #eceded;
+  flex-shrink: 0;
+  margin-top: 5px;
+}
 .made-item:not(:last-child) {
   margin-bottom: 24px;
 }
@@ -43,4 +60,3 @@
   width: 516px;
   background-color: #fff;
 }
-
