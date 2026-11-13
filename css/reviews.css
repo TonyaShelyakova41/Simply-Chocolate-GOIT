@@ -3,6 +3,7 @@
 }
 
 .reviews-title {
+  margin-bottom: 90px;
 }
 .reviews-list {
   display: flex;
@@ -19,8 +20,14 @@
   box-shadow: 0 4px 10px 0 rgba(17, 17, 17, 0.1);
   background-color: #fff;
   margin-bottom: 90px;
+  position: relative;
 }
+
 .reviews-ill {
+  position: absolute;
+  top: -40px;
+  right: 50%;
+  transform: translateX(50%);
 }
 
 .reviews-name {

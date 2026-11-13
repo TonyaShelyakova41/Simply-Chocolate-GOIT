@@ -6,6 +6,19 @@
   background-color: rgba(17, 17, 17, 0.4);
   padding: 380px 40px 40px;
   border-radius: 30px;
+  max-width: 1168px;
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(17, 17, 17, 0.2) 0%,
+      rgba(17, 17, 17, 0.8) 100%
+    ),
+    url(../images/hero-bg_desk@2x.jpg);
+
+  overflow: hidden;
+  position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-title {
@@ -25,11 +38,24 @@
   color: #fff;
   gap: 14px;
   margin-left: auto;
+  transition: 300ms ease-out;
+  transition-property: background-color, color;
 }
 
 .hero-link:hover,
 .hero-link:focus {
   color: #fd9222;
+}
+
+.hero-link:hover .hero-link-icon,
+.hero-link:focus .hero-link-icon {
+  color: #fff;
+}
+
+.hero-link-icon {
+  color: #fd9222;
+  transition: 300ms ease-out;
+  transition-property: color;
 }
 .hero-link-icon:hover,
 .hero-link-icon:focus {
@@ -49,6 +75,8 @@
   width: 38px;
   height: 38px;
   background-color: #fff;
+  transition: 300ms ease-out;
+  transition-property: background-color;
 }
 
 .hero-controls {
